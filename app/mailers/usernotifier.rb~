@@ -1,0 +1,10 @@
+class UserNotifier < ActionMailer::Base
+ default :from => "ankushpatiyal@gmail.com"
+
+def send_signup_email(home)
+@home=home
+mail(:from => "ankushpatiyal@gmail.com", :to =>  @home.name, :subject => "Welcome to 1 Support Ticket")
+mail(:to => @home.name,:subject => "Thanks for signing up")
+end
+
+end

@@ -1,0 +1,6 @@
+
+<html>
+<body class="one"></body>
+<h2 class="color">Signing using Facebook account</h2>
+<h3><%=link_to 'Clients List', clients_path,:class=>"clientcss"%></h3>
+</html>

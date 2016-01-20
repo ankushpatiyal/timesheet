@@ -1,0 +1,8 @@
+<%=image_tag("https://maps.googleapis.com/maps/api/staticmap?origin="+"#{@home.first.add1}"+",&destination="+"#{@home.first.add1}"+"&zoom=14&size=300x300&markers="+"#{@home.first.add2}"+"&sensor=false")%>
+
+
+<%=image_tag("https://maps.googleapis.com/maps/api/staticmap?center="+"#{@home.first.add1}"+"&zoom=14&size=300x300&markers="+"#{@home.first.add1}"+"&sensor=false")%>
+
+
+<%=image_tag("http://maps.google.com/maps/api/staticmap?size=255x255&maptype=roadmap&sensor=false&mode=driving&alternatives=true&markers=color:blue|label:A|"+"#{@home.first.add1}"+"&markers=color:purple|label:B|"+"#{@home.first.add2}")%>
+
